@@ -25,7 +25,7 @@ a{
     color: #fff;
 }
 .dark-color{
-    color: #333;
+    color: #333 !important;
 }
 
 .header{
@@ -146,3 +146,143 @@ a{
 
 
 /*--------------------------*/
+#aboutUs{
+    height: calc(100vh - 50px);
+    display: flex;
+    background: rgb(182, 176, 123);
+    margin-top: 50px;
+}
+
+.leftAboutUs{
+    flex: 6;
+    margin: 5% 10% 5% 15%;
+}
+
+.titleAboutUs{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.textBoldAboutUs{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 0;
+    line-height: 1.7rem;
+}
+
+.textMeuteAboutUs{
+    width: 80%;
+    font-size: 12px;
+    color: rgb(80, 80, 80);
+    font-weight: 500;
+    line-height: 1.2rem;
+}
+.textMeuteAboutUs p:first-child{
+    padding: 15px 0;
+}
+
+.rightAboutUs{
+    flex: 6;
+}
+
+.imgAboutUs{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-top: -50px;
+}
+
+
+/*-------------------------*/
+.developmentsSection{
+    height: 100vh; 
+    padding: 4% 15%;
+}
+
+.titleDevelopments{
+    font-size: 35px;
+    font-weight: 500;
+    text-align: start; 
+    padding: 40px 0 25px; 
+}
+
+.developmentsItems{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.development{
+    margin: 20px 0;
+}
+
+.imgDevelopment{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.titleDevelopment{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0 3px;
+}
+
+.locationDevelopment{
+    font-size: 14px;
+}
+
+/*------------------------*/
+.footer{
+    height: 30vh;
+    margin: 10% 15% 5%;
+    border-top: 1px solid rgb(228, 228, 228);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+
+}
+.copyFooter{
+    font-size: 12px;
+    color: gray;
+}
+
+.menuFooter{
+padding: 0 20px;
+}
+
+.signUpFooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.textSignUpFooter{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(182, 153, 81);
+    margin-top: 10px;
+}
+
+.emailFooter{
+    border: 1px solid rgb(240, 240, 240);
+    height: 40px;
+    background-color: rgb(240, 240, 240);
+    margin: 15px 0;
+}
+.emailFooter:focus{
+    outline: none;
+}
+
+.btnFooter{
+    text-align: end;
+}
+
+.btn-golden{
+    background-color: white;
+    color: rgb(182, 153, 81);
+}
+.btn-golden:hover{
+    background-color: rgb(182, 153, 81);
+    color: white;
+}
