@@ -1,0 +1,103 @@
+/*--------- HEADER ----------*/
+.nav{
+    flex-direction: column;
+    padding: 20px;
+}
+
+.items{
+    font-size: 11px;
+}
+
+.item{
+    padding: 15px;
+}
+
+.context{
+    margin: 100px 0;
+    padding-left: 50px;
+    width: 100%;
+}
+
+.welcomText{
+    font-size: 11px;
+}
+
+.rocaText{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.commentText{
+    font-size: 11px;
+}
+
+
+/*------------- WE DO --------------*/
+.weDo{
+    padding: 30px 0;
+}
+
+.titleWeDo{
+    padding-bottom: 30px;
+}
+
+.itemsWeDo{
+    display: flex;
+    flex-direction: column;
+}
+
+.itemWeDo{
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    margin: 0 20px;
+}
+.itemWeDo:last-child{
+    border-bottom: none;
+}
+
+.imgItemWeDo{
+    width: 140px;
+    height: 140px;
+}
+
+.titleItemWeDo{
+    font-size: 14px;
+}
+
+.textItemWeDo{
+    font-size: 12px;
+}
+
+/*------------- ABOUT US -------------*/
+#aboutUs{
+    height: 90vh;
+    margin-top: 0;
+}
+
+.leftAboutUs{
+    flex: 12;
+    margin: 70px 50px;
+}
+
+.rightAboutUs{
+    flex: 0;
+}
+
+/*------------- DEVELOPMENTS ------------*/
+.titleDevelopments{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.footer{
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuFooter{
+    display: none;
+}
+
+.signUpFooter{
+    padding-top: 30px;
+}
